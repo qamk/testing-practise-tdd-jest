@@ -8,6 +8,6 @@ it('Capitalises the first letter of a string', () => {
 
 it('Does not change a capitalised string', () => {
   const capitalisedString = 'I am already capitalised';
-  const result = capitalised(capitalisedString);
+  const result = capitalise(capitalisedString);
   expect(result).toBe('I am already capitalised');
 });
